@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ezra Hilbig — Restaurant Builder</title>
+  <meta name="description" content="Ezra Hilbig builds neighborhood restaurants that guests return to and that can be replicated without losing their soul.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <p class="logo"><a href="#landing">Ezra Hilbig</a></p>
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#landing">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- LANDING -->
+    <section id="landing" class="section landing" aria-labelledby="landing-heading">
+      <div class="container">
+        <h1 id="landing-heading">Ezra Hilbig</h1>
+        <p class="positioning">I build neighborhood restaurants that guests return to and that can be replicated without losing their soul.</p>
+        <p class="landing-sub">Chef · Operator · Multi-unit builder</p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about" aria-labelledby="about-heading">
+      <div class="container narrow">
+        <h2 id="about-heading">About</h2>
+        <p>I started cooking because I wanted to feed people well and make them feel looked after. That simple impulse led me through kitchens in Chicago and Austin, then into opening my first restaurant in 2021. What I discovered quickly is that great food is only half the job. The other half is building a place people want to come back to, a team that stays, and systems that let the quality hold when you are not standing on the line every night.</p>
+        <p>My first restaurant taught me how to create a concept that feels personal yet can scale. Guests responded to a weekly neighborhood table menu that mixed familiar comfort with a few unexpected turns. Repeat visits climbed, local press paid attention, and the numbers supported opening a second location eighteen months later. The second place kept the same soul but adapted to a different neighborhood. Both now share a central prep kitchen that protects consistency and controls cost.</p>
+        <p>I am not interested in becoming a celebrity chef or chasing trends that last one season. I want to own a small group of neighborhood restaurants that feel rooted, run cleanly, and can be trusted by both guests and the people who work in them. That means careful menu engineering, tight cost control, deliberate hiring and training, and the patience to grow only as fast as the culture can support. I am currently looking for partners and opportunities that share that long-view approach.</p>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section portfolio" aria-labelledby="portfolio-heading">
+      <div class="container">
+        <h2 id="portfolio-heading">Portfolio</h2>
+        <p class="section-intro">Selected work that shows concept, team, and growth.</p>
+
+        <article class="project">
+          <h3>Neighborhood Table Concept — First Restaurant</h3>
+          <p class="meta"><strong>Role:</strong> Founder &amp; Executive Chef · Opened 2021</p>
+          <p><strong>Problem / Brief:</strong> Create a neighborhood restaurant that would feel personal and drive repeat visits in a competitive mid-sized city market without relying on heavy marketing spend.</p>
+          <p><strong>What resulted:</strong> Designed and launched a weekly rotating “neighborhood table” menu that mixed familiar dishes with seasonal twists. Within six months, repeat visits reached 42%. The restaurant earned three local press features and built a reservation base strong enough to support opening a second location. Food cost held between 28–30% while average check rose 15% through deliberate menu engineering.</p>
+        </article>
+
+        <article class="project">
+          <h3>Team Retention &amp; Culture System — Second Location</h3>
+          <p class="meta"><strong>Role:</strong> Owner-Operator · 2023–present</p>
+          <p><strong>Problem / Brief:</strong> Industry staff turnover often exceeds 70%. Opening a second restaurant required a reliable team and a culture that would not collapse under growth.</p>
+          <p><strong>What resulted:</strong> Wrote a clear staff handbook, instituted structured onboarding and weekly pre-shift training, and created transparent scheduling and tip-pooling practices. First-year turnover at the second location stayed under 18%. Two team members who started as line cooks are now sous chefs. The culture has become a recruiting advantage rather than a constant fire drill.</p>
+        </article>
+
+        <article class="project">
+          <h3>Central Prep Kitchen &amp; Multi-Unit Expansion</h3>
+          <p class="meta"><strong>Role:</strong> Owner · 2023–2024</p>
+          <p><strong>Problem / Brief:</strong> Scaling to a second location risked quality drift and higher labor costs if every station was fully duplicated.</p>
+          <p><strong>What resulted:</strong> Designed and opened a shared central prep kitchen that supplies both restaurants. Labor cost dropped 12% while consistency improved. Both locations now run positive cash flow. The model is documented and ready to support a third location when the right neighborhood and team are in place.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact" aria-labelledby="contact-heading">
+      <div class="container narrow">
+        <h2 id="contact-heading">Contact</h2>
+        <p>I am open to conversations with potential partners, landlords, investors who share a long-term view, and operators looking to build thoughtfully.</p>
+        <p class="contact-email">
+          <a href="mailto:jordan.hale.restaurants@gmail.com">jordan.hale.restaurants@gmail.com</a>
+        </p>
+        <p class="contact-note">Prefer email. I read and reply to every message.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Ezra Hilbig. Built to be clear, useful, and maintainable.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
